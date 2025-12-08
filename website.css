@@ -246,23 +246,16 @@ footer p{
 
 
 @media (max-width: 768px) {
-  .navbar ul {
-    flex-direction: column;
-    gap: 15px;
-    padding: 0 10px;
-    display: none; 
+
+  button {
+    position: fixed;
+    top: 20%;       
+    right: 20px;    
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 6px;
   }
 
-  .menu-toggle {
-    display: block;
-    font-size: 28px;
-    cursor: pointer;
-    padding: 10px 20px;
-    background-color: #0077ff;
-    color: white;
-    border-radius: 8px;
-    margin: 10px;
-  }
 
   h2 {
     font-size: 28px;
@@ -328,6 +321,7 @@ footer p{
     margin-top: 20px;
   }
 }
+
 
 
 
