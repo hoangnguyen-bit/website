@@ -248,7 +248,7 @@ footer p{
 @media (max-width: 768px) {
 button {
     position: fixed;
-    top: 60%;          
+    top: 30%;          
     left: 50%;       
     transform: translateX(-50%); 
     padding: 10px 16px;
@@ -323,6 +323,7 @@ button {
     margin-top: 20px;
   }
 }
+
 
 
 
