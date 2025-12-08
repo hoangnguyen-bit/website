@@ -246,6 +246,21 @@ footer p{
 
 
 @media (max-width: 768px) {
+  Button {
+    position: fixed;      
+    top: 66vh;             
+    left: 50%;              
+    transform: translateX(-50%);
+    margin: 0 !important;   
+    right: auto !important; 
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background: grey;
+    color: yellow;
+    cursor: pointer;
+    z-index: 1000;
+}
 
   h2 {
     font-size: 28px;
@@ -258,14 +273,6 @@ footer p{
   p, .intro, .content .a, .content .q, .about-text, #about, #about1 {
     font-size: 16px;
     margin-top: 20px;
-  }
-
-  button {
-    right: 20px;
-    top: 80%;
-    margin-top: 0;
-    padding: 6px 12px;
-    font-size: 14px;
   }
 
   .gallery, .photo-grid {
@@ -311,6 +318,7 @@ footer p{
     margin-top: 20px;
   }
 }
+
 
 
 
