@@ -27,6 +27,26 @@
 	<link rel="stylesheet" href="website.css">
 </head>
 <body>
+	<div class="menu-toggle">☰</div>
+<nav class="navbar">
+  <ul>
+    <li><a href="#">Trang chủ</a></li>
+    <li><a href="#">Giới thiệu</a></li>
+    <li><a href="#">Liên hệ</a></li>
+  </ul>
+</nav>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.navbar ul');
+  toggle.addEventListener('click', () => {
+    if(menu.style.display === 'flex' || menu.style.display === 'block'){
+      menu.style.display = 'none';
+    } else {
+      menu.style.display = 'flex';
+    }
+  });
+</script>
 	<nav class="navbar">
         <ul>
            <li><a href="website.html">홈</a></li>
@@ -48,5 +68,6 @@
 </html>
 
 	
+
 
 
