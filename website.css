@@ -246,6 +246,7 @@ footer p{
 
 
 @media (max-width: 768px) {
+button{
     position: fixed;         
     top: 66vh;            
     left: 50%;            
@@ -324,6 +325,7 @@ footer p{
     margin-top: 20px;
   }
 }
+
 
 
 
